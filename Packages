@@ -1,0 +1,46 @@
+Package: com.alonemonkey.wechatpod
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: AloneMonkey <liupeiqing1993@163.com>
+Installed-Size: 270
+Filename: ./debs/WechatPod/com.alonemonkey.wechatpod_2.0_iphoneos-arm.deb
+Size: 269712
+MD5sum: 26f9b2fadcf615c663dfdfbb0fa28a35
+SHA1: 2b348f535966991b29b0de3b56a4637724f1b436
+SHA256: e7e4264bdb1c3e4d990eb5494fa54ee3924e72e9b91d5325b648460a67d57344
+Section: Tweaks
+Priority: optional
+Description: 防撤回、修改步数、游戏作弊、修改定位
+Name: wechatpod
+
+Package: dropbear
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 1400
+Filename: ./debs/Dropbear/dropbear_2.0_iphoneos-arm.deb
+Size: 1443690
+MD5sum: 04015c6effcb38db963b1c4a7889170f
+SHA1: eef799b76319be7445bb311f202a8909787c6962
+SHA256: ce1239d16021ea857c8de0689b695380c09758186fb93956a180d1cefa517981
+Section: System
+Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB(Wi-Fi SSH is not enabled by default.)
+Name: Dropbear
+
+Package: scp
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 131
+Pre-Depends: dpkg (>= 1.14.25-8)
+Provides: scp
+Filename: ./debs/scp/scp_1.0_iphoneos-arm.deb
+Size: 38724
+MD5sum: 1b47583156a0ed0aa3164ead05626191
+SHA1: a4732bd7618b13b8a058644f11dca0f6bc5955dd
+SHA256: 7585a57dc812e280c56c491e28260260c9048c74f5753ef5a0bf11e0c21aeac0
+Section: Administration
+Priority: Standard
+Description: scp
+Tag: purpose::console, role::developer
+

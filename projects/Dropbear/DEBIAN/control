@@ -4,5 +4,5 @@ Version: 2.0
 Installed-Size: 1400
 Section: System
 Architecture: iphoneos-arm
-Maintainer: AloneMonkey <liupeiqing1993@163.com>
+Maintainer: anonymous
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB(Wi-Fi SSH is not enabled by default.)

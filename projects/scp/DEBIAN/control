@@ -2,7 +2,7 @@ Package: scp
 Priority: Standard
 Section: Administration
 Installed-Size: 131
-Maintainer: AloneMonkey <liupeiqing1993@163.com>
+Maintainer: anonymous
 Architecture: iphoneos-arm
 Version: 1.0
 Pre-Depends: dpkg (>= 1.14.25-8)

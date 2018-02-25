@@ -1,2 +1,1 @@
-# cydiarepo
-This is a cydia repo created on github
+create cydia repo on github

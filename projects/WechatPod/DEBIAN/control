@@ -1,0 +1,9 @@
+Package: com.alonemonkey.wechatpod
+Name: wechatpod
+Version: 2.0
+Installed-Size: 270
+Description: 防撤回、修改步数、游戏作弊、修改定位
+Section: Tweaks
+Priority: optional
+Architecture: iphoneos-arm
+Maintainer: AloneMonkey <liupeiqing1993@163.com>

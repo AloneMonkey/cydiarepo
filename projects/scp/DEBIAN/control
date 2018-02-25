@@ -1,0 +1,11 @@
+Package: scp
+Priority: Standard
+Section: Administration
+Installed-Size: 131
+Maintainer: AloneMonkey <liupeiqing1993@163.com>
+Architecture: iphoneos-arm
+Version: 1.0
+Pre-Depends: dpkg (>= 1.14.25-8)
+Provides: scp
+Description: scp
+Tag: purpose::console, role::developer

@@ -1,13 +1,28 @@
+Package: com.alonemonkey.stonetweak
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AloneMonkey <liupeiqing1993@163.com>
+Installed-Size: 24
+Filename: ./debs/StoneTweak/com.alonemonkey.stonetweak_1.0_iphoneos-arm.deb
+Size: 23600
+MD5sum: 350a5dee1395d73930fabcab2085ac59
+SHA1: 6178f3a5a08f2c04802b6cb44170419f7ad847c2
+SHA256: 580503753205211fe8b279d40a3b764e2c7d7610c9a74d22496443c6e1a8fbe4
+Section: Tweaks
+Priority: optional
+Description: 去掉Stone越狱检测
+Name: stonetweak
+
 Package: com.alonemonkey.wechatpod
 Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Installed-Size: 270
 Filename: ./debs/WechatPod/com.alonemonkey.wechatpod_2.0_iphoneos-arm.deb
-Size: 269712
-MD5sum: c5417c7cb4515fab128f380ae277115a
-SHA1: acb4367b6c6f70147bf9a79268b8755ec038a6c7
-SHA256: cad4346450a6e67506d5c1692c27ad1c4d4e77e878786a46d37ab91cf00a5e36
+Size: 269706
+MD5sum: 953d7543574ff4a15f48ae5e02e535d3
+SHA1: c56f52f3430a683b407a3ef3fe037c7e527a4c25
+SHA256: e254dd32544603d2b9f65f9427ded75c843040593497e501fd2d11f58c29823f
 Section: Tweaks
 Priority: optional
 Description: 防撤回、修改步数、游戏作弊、修改定位
@@ -19,10 +34,10 @@ Architecture: iphoneos-arm
 Maintainer: anonymous
 Installed-Size: 1400
 Filename: ./debs/Dropbear/dropbear_2.0_iphoneos-arm.deb
-Size: 1443690
-MD5sum: d5270228211330c80cf073c83cb8f718
-SHA1: 8c6c06178e44d24673729376a971acce0efaf4d2
-SHA256: 6bbb893c2306a88d53ccfe171280a0d3e18269e327dd34dcab1d2e3d893f5383
+Size: 1443652
+MD5sum: bf665d4728fcedb17bbbd8e5381805eb
+SHA1: f11cd60f4e9c69d374c8dec4d250ff6e9d333f80
+SHA256: c4a92a536066aa4fd6236d4cdb3e1a9be97d43f1f98c6aca587642b243752cba
 Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB(Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
@@ -35,10 +50,10 @@ Installed-Size: 131
 Pre-Depends: dpkg (>= 1.14.25-8)
 Provides: scp
 Filename: ./debs/scp/scp_1.0_iphoneos-arm.deb
-Size: 38724
-MD5sum: 823ecb4792c02729e1005d88b86ddba7
-SHA1: 23586069af799df68868fbff4d3ef9c817e19d54
-SHA256: b2d91991fe2d32905757672c29686acc1204581dda35deb67963f13fc8e99898
+Size: 38712
+MD5sum: 266cacb0bb0694975920d28251ed883c
+SHA1: 26ab6d3a5f936d1b7c114d35bc391328747e5ca0
+SHA256: d0b7863bea5a48976e1697444b8caa4a4e472dc30417eb11d9c0bd8091a0df23
 Section: Administration
 Priority: Standard
 Description: scp

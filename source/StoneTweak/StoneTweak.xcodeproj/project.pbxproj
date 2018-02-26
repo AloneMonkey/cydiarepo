@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86C39C642043C9CC00DD3137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C39C632043C9CC00DD3137 /* Foundation.framework */; };
+		86C39C6C2043C9CC00DD3137 /* StoneTweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86C39C6B2043C9CC00DD3137 /* StoneTweak.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86C39C602043C9CB00DD3137 /* StoneTweak.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = StoneTweak.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C39C632043C9CC00DD3137 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86C39C682043C9CC00DD3137 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		86C39C6A2043C9CC00DD3137 /* StoneTweak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoneTweak-Prefix.pch"; sourceTree = "<group>"; };
+		86C39C6B2043C9CC00DD3137 /* StoneTweak.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = StoneTweak.mm; sourceTree = "<group>"; };
+		86C39C702043C9CC00DD3137 /* StoneTweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = StoneTweak.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/StoneTweak.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C39C5C2043C9CB00DD3137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C39C642043C9CC00DD3137 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86C39C562043C9CB00DD3137 = {
+			isa = PBXGroup;
+			children = (
+				86C39C652043C9CC00DD3137 /* StoneTweak */,
+				86C39C622043C9CC00DD3137 /* Frameworks */,
+				86C39C612043C9CC00DD3137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C39C612043C9CC00DD3137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C39C602043C9CB00DD3137 /* StoneTweak.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C39C622043C9CC00DD3137 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86C39C632043C9CC00DD3137 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86C39C652043C9CC00DD3137 /* StoneTweak */ = {
+			isa = PBXGroup;
+			children = (
+				86C39C6B2043C9CC00DD3137 /* StoneTweak.mm */,
+				86C39C662043C9CC00DD3137 /* Package */,
+				86C39C692043C9CC00DD3137 /* Supporting Files */,
+			);
+			path = StoneTweak;
+			sourceTree = "<group>";
+		};
+		86C39C662043C9CC00DD3137 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				86C39C672043C9CC00DD3137 /* DEBIAN */,
+				86C39C6D2043C9CC00DD3137 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		86C39C672043C9CC00DD3137 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				86C39C682043C9CC00DD3137 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		86C39C692043C9CC00DD3137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86C39C6A2043C9CC00DD3137 /* StoneTweak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86C39C6D2043C9CC00DD3137 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				86C39C6E2043C9CC00DD3137 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		86C39C6E2043C9CC00DD3137 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				86C39C6F2043C9CC00DD3137 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		86C39C6F2043C9CC00DD3137 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				86C39C702043C9CC00DD3137 /* StoneTweak.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		86C39C5D2043C9CB00DD3137 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86C39C5F2043C9CB00DD3137 /* StoneTweak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C39C732043C9CC00DD3137 /* Build configuration list for PBXNativeTarget "StoneTweak" */;
+			buildPhases = (
+				86C39C5B2043C9CB00DD3137 /* Sources */,
+				86C39C5C2043C9CB00DD3137 /* Frameworks */,
+				86C39C5D2043C9CB00DD3137 /* Headers */,
+				86C39C5E2043C9CB00DD3137 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoneTweak;
+			productName = StoneTweak;
+			productReference = 86C39C602043C9CB00DD3137 /* StoneTweak.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C39C572043C9CB00DD3137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					86C39C5F2043C9CB00DD3137 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 86C39C5A2043C9CB00DD3137 /* Build configuration list for PBXProject "StoneTweak" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86C39C562043C9CB00DD3137;
+			productRefGroup = 86C39C612043C9CC00DD3137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C39C5F2043C9CB00DD3137 /* StoneTweak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86C39C5E2043C9CB00DD3137 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86C39C5B2043C9CB00DD3137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C39C6C2043C9CC00DD3137 /* StoneTweak.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		86C39C712043C9CC00DD3137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"StoneTweak\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C39C722043C9CC00DD3137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"StoneTweak\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		86C39C742043C9CC00DD3137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XQEPG2J2J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoneTweak/StoneTweak-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = Stone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86C39C752043C9CC00DD3137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XQEPG2J2J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoneTweak/StoneTweak-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = Stone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86C39C5A2043C9CB00DD3137 /* Build configuration list for PBXProject "StoneTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C39C712043C9CC00DD3137 /* Release */,
+				86C39C722043C9CC00DD3137 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C39C732043C9CC00DD3137 /* Build configuration list for PBXNativeTarget "StoneTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C39C742043C9CC00DD3137 /* Release */,
+				86C39C752043C9CC00DD3137 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86C39C572043C9CB00DD3137 /* Project object */;
+}

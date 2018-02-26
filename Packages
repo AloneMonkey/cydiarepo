@@ -5,9 +5,9 @@ Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Installed-Size: 24
 Filename: ./debs/StoneTweak/com.alonemonkey.stonetweak_1.0_iphoneos-arm.deb
 Size: 23600
-MD5sum: 350a5dee1395d73930fabcab2085ac59
-SHA1: 6178f3a5a08f2c04802b6cb44170419f7ad847c2
-SHA256: 580503753205211fe8b279d40a3b764e2c7d7610c9a74d22496443c6e1a8fbe4
+MD5sum: 534cdcf428b0794ad73c9367d6bfcf92
+SHA1: 7ce69054c4524744084fd2260deee14f2a6038b2
+SHA256: f8e87a17c740cc5cf330e01e2f8bea990f4a2946dae98a6c2152d0d235a945b3
 Section: Tweaks
 Priority: optional
 Description: 去掉Stone越狱检测
@@ -20,9 +20,9 @@ Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Installed-Size: 270
 Filename: ./debs/WechatPod/com.alonemonkey.wechatpod_2.0_iphoneos-arm.deb
 Size: 269706
-MD5sum: 953d7543574ff4a15f48ae5e02e535d3
-SHA1: c56f52f3430a683b407a3ef3fe037c7e527a4c25
-SHA256: e254dd32544603d2b9f65f9427ded75c843040593497e501fd2d11f58c29823f
+MD5sum: 2ae04af089866c99961aa5c67909e857
+SHA1: c5bc3bb24a696a0a89d0af898fa42bb4940f9a9a
+SHA256: 87cc9b5934203b6860d826810944c7ab63b1c9c94da9afdb5b901d75d6e90265
 Section: Tweaks
 Priority: optional
 Description: 防撤回、修改步数、游戏作弊、修改定位
@@ -35,9 +35,9 @@ Maintainer: anonymous
 Installed-Size: 1400
 Filename: ./debs/Dropbear/dropbear_2.0_iphoneos-arm.deb
 Size: 1443652
-MD5sum: bf665d4728fcedb17bbbd8e5381805eb
-SHA1: f11cd60f4e9c69d374c8dec4d250ff6e9d333f80
-SHA256: c4a92a536066aa4fd6236d4cdb3e1a9be97d43f1f98c6aca587642b243752cba
+MD5sum: ed65baf338515af9e6a26928ba5d4183
+SHA1: b7e03e8118739dfdb508df657ddcea7b9644ab54
+SHA256: d309af3f05bd6c3723485c4e3a906c51beb249d66c0b04eb29a373e2ff058b5c
 Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB(Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
@@ -51,9 +51,9 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Provides: scp
 Filename: ./debs/scp/scp_1.0_iphoneos-arm.deb
 Size: 38712
-MD5sum: 266cacb0bb0694975920d28251ed883c
-SHA1: 26ab6d3a5f936d1b7c114d35bc391328747e5ca0
-SHA256: d0b7863bea5a48976e1697444b8caa4a4e472dc30417eb11d9c0bd8091a0df23
+MD5sum: f2e9c25bdb292f93231dffb237b1b276
+SHA1: 91f1d516c213695fe5a6d79f522bcc23e02a874f
+SHA256: 2d614f7747ea360aa2af75671cf2de7ea262ee03877957e8a35b15b5452e4af4
 Section: Administration
 Priority: Standard
 Description: scp

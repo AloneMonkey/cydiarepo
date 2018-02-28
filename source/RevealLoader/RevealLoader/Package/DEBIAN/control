@@ -1,7 +1,7 @@
 Package: com.alonemonkey.revealloader
 Name: revealloader
 Version: 13.0
-Installed-Size: 24
+Installed-Size: 1900
 Description: RevealLoader，使用reveal 13版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
 Section: Tweaks
 Depends: AppList

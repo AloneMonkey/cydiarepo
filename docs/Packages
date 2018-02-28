@@ -2,13 +2,13 @@ Package: com.alonemonkey.revealloader
 Version: 13.0
 Architecture: iphoneos-arm
 Maintainer: AloneMonkey <liupeiqing1993@163.com>
-Installed-Size: 24
+Installed-Size: 1900
 Depends: AppList
 Filename: ./docs/debs/RevealLoader/com.alonemonkey.revealloader_13.0_iphoneos-arm.deb
-Size: 1906132
-MD5sum: 640caf3b79c448a68126617960d5fe9d
-SHA1: f0afb4557ecf819192364a2a96740f5731c69416
-SHA256: 1e4336265d9de1fbdd11cc89dca73f6ee7030931dc8ecc7efc1be75cc79960bd
+Size: 1906134
+MD5sum: 599d2b04a251c943c0c6ffd753ce37a5
+SHA1: 3c812914714769529515754c1a55e4d7df1e5fd6
+SHA256: 416fbc38e0788d414cf0675fd1a17eed4c78d062d521dafcaa8b98585bdb4a9c
 Section: Tweaks
 Priority: optional
 Description: RevealLoader，使用reveal 13版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
@@ -21,9 +21,9 @@ Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Installed-Size: 24
 Filename: ./docs/debs/StoneTweak/com.alonemonkey.stonetweak_1.0_iphoneos-arm.deb
 Size: 23600
-MD5sum: f84dd69f3486cd46008d2eab96563678
-SHA1: 1be1b53382be015715d954b781b44abdd8bac931
-SHA256: cacc9d27c824592069b1ee224fea469240e14624d4d2248e0419d68236564a87
+MD5sum: 78a023598f2969536ed1c0a508f2ce74
+SHA1: 4b43336e4457e59ab458487e1f90e48d45bc12ff
+SHA256: d4eac1503e291b237707caedf3d38ee5f095832e3cb72f6e6d3547f0eb479f68
 Section: Tweaks
 Priority: optional
 Description: 去掉Stone越狱检测
@@ -36,9 +36,9 @@ Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Installed-Size: 270
 Filename: ./docs/debs/WechatPod/com.alonemonkey.wechatpod_2.0_iphoneos-arm.deb
 Size: 269706
-MD5sum: d8d87745980a2e00a8d93e8d3676a97d
-SHA1: 4d5f07d77b027803fc6f877de141d2fe32686ed9
-SHA256: 4878db79e6dcee407c3cbee5993979c788d2859b1e25de6719439399c5477578
+MD5sum: 18cc05ef67898fcb772b5ed77b01a3ef
+SHA1: c4a13cae89f4aa57a822cbd5b3c90014381722c6
+SHA256: a3f3597278d9b5c9e5f258203fbb5869e2afc2d86697c701c966ce59602e24f9
 Section: Tweaks
 Priority: optional
 Description: 防撤回、修改步数、游戏作弊、修改定位
@@ -51,9 +51,9 @@ Maintainer: anonymous
 Installed-Size: 1400
 Filename: ./docs/debs/Dropbear/dropbear_2.0_iphoneos-arm.deb
 Size: 1443652
-MD5sum: d845ac91edf1792bfa374a4f2dd457f2
-SHA1: 23c28b6901b5dfb9c9379b0ac7e4652cd4ee9c75
-SHA256: a1fa43100cf256d865f78a8f6182420a1ccdd5268bf29e5712fc73b87cf93a7f
+MD5sum: 2d38927a408ba039026d60ebea4d0402
+SHA1: 616695ca3c5ac6bdf3fa04a831e8a6e206ebbac6
+SHA256: aabb2da42df7f6a5b98d515654ea989b0a9810c3dad0670573076d5fdd4ef737
 Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB(Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
@@ -67,9 +67,9 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Provides: scp
 Filename: ./docs/debs/scp/scp_1.0_iphoneos-arm.deb
 Size: 38712
-MD5sum: 0ca8d0fcad327ccf10eade46f8e45348
-SHA1: f0c543f55e025913be9b546f4183baf48eebe322
-SHA256: 45cc53e8c21034f0e0e2a9a423b822e485b5292b9726e2e544ffada36522012d
+MD5sum: c086edadc6321fa2bf31c964e06408c6
+SHA1: 7c909bab8fc028ece32e2872366599c04d205fec
+SHA256: ef659a547df2c249c065e520be55a0f64918a2659075512a92023ed9a77da742
 Section: Administration
 Priority: Standard
 Description: scp

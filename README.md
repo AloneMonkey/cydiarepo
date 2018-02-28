@@ -7,5 +7,5 @@
 ### PR
 
 1. Add your tweak to projects
-2. run `./gen.sh`
+2. run `./pack.sh`
 3. pull request

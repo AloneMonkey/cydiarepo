@@ -8,3 +8,5 @@ for file in `ls ./source`
         echo "successful copy $file to projects folder"
 			fi
     done
+
+cd ./docs && ./gen.sh

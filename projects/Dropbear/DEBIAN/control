@@ -1,6 +1,6 @@
 Package: Dropbear
 Name: Dropbear
-Version: 2.0
+Version: 3.0
 Installed-Size: 441
 Section: System
 Architecture: iphoneos-arm

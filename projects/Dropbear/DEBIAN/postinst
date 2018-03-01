@@ -1,12 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
-declare -a cydia
-cydia=($CYDIA)
-
-if [[ ${CYDIA+@} ]]; then
-        eval "echo 'finish:restart' >&${cydia[0]}"
-else
-        echo "Please respring your device after this!"
-fi
+launchctl load /Library/LaunchDaemons/dropbear.plist
 
 exit 0

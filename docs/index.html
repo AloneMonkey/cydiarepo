@@ -1,14 +1,76 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <title>CydiaRepo</title>
-  </head>
-  <body>
-    <p>1. dropbear</p>
-    <p>2. scp</p>
-    <p>3. stonetweak</p>
-    <p>4. wechatpod</p>
-    <p>5. RevealLoader</p>
-  </body>
+    <title>AloneMonkey's Repository</title>
+    <base target="_top">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" src="./res/js/thankssaurik.js"></script>
+    <link rel="icon" type="image/png" href="/res/images/16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/res/images/32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/res/images/48.png" sizes="48x48">
+    <link rel="icon" type="image/png" href="/res/images/64.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="/res/images/128.png" sizes="128x128">
+    <link rel="icon" type="image/png" href="/res/images/256.png" sizes="256x256">
+    <link rel="apple-touch-icon" sizes="120x120" href="/res/images/120.png">
+</head>
+<br>
+<body class="pinstripe">
+    <panel>
+
+        <center>
+            <img src="./CydiaIcon.png" alt="AloneMonkeyRepo" style="width:320;height:94.07867494824px;">
+        </center>
+
+        <block>
+            <fieldset>
+                <label>
+                    <center>
+                        <strong>AloneMonkey's Repository</strong>
+                    </center>
+                </label>
+            </fieldset>
+        </block>
+        
+        <label>Add Repo:</label>
+        <fieldset>
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://www.alonemonkey.com/cydiarepo">
+                <img class="icon" src="./res/images/cydia.png">
+                <div>
+                    <div>
+                        <label>
+                            <p>Add to Cydia</p>
+                        </label>
+                    </div>
+                </div>
+            </a>
+            <a>
+                <img class="icon" src="./res/images/url.png">
+                <div>
+                    <div>
+                        <label>
+                            <p>URL</p>
+                        </label>
+                        <input type="text" value="http://www.alonemonkey.com/cydiarepo" onclick="setSelectionRange(0,36)" style="width: 210px;">
+                    </div>
+                </div>
+            </a>
+        </fieldset>
+
+        <label>about:</label>
+        <fieldset>
+            <a href="http://www.alonemonkey.com">
+                <img class="icon" src="./res/images/url.png" width="58" height="58">
+                <div>
+                    <div>
+                        <label>
+                            <p>AloneMonkey's Blog</p>
+                        </label>
+                    </div>
+                </div>
+            </a>
+        </fieldset>
+    </panel>
+</body>
 </html>

@@ -1,0 +1,17 @@
+Package: io.iosleep.DingTalkFucker
+Name: DingTalkFucker
+Version: 1.0
+Description: 签到打卡（wifi，gps），抢红包（延迟，正则匹配）
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: iOSleep
+dev: 
+Homepage: https://github.com/iOSleep/DingTalkFucker
+Depiction: 
+Maintainer: mx.yolande@gmail.com
+Icon: 
+

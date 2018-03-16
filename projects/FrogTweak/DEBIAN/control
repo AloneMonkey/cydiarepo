@@ -1,0 +1,8 @@
+Package: com.alonemonkey.frogtweak
+Name: FrogTweak
+Version: 1.0
+Description: 旅行青蛙，无限三叶草、无限券、抽奖必中、必出四叶草
+Section: Tweaks
+Priority: optional
+Architecture: iphoneos-arm
+Maintainer: AloneMonkey <liupeiqing1993@163.com>

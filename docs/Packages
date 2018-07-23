@@ -18,10 +18,10 @@ Architecture: iphoneos-arm
 Maintainer: anonymous
 Installed-Size: 441
 Filename: ./debs/Dropbear/dropbear_3.0_iphoneos-arm.deb
-Size: 441142
-MD5sum: df64f4477cad8579565adf2704a36f44
-SHA1: d9dee96ce4bc38bf1219a52bf822e9416f7a74c3
-SHA256: ceaea5dc5db57d2f3791a28c9b6c2164d7d493eeccf47858eef106e0979f0163
+Size: 441140
+MD5sum: f0682a8cc2efe4aa2ce5dd950bc2c8a3
+SHA1: bd67a55f215c80bdf9d87b09cca1b2891f9481c0
+SHA256: 0ecd3c37894e9c7be50eea035e2cf5b0b8cd0561c03e4b59f705972adbd08e8c
 Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB(Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
@@ -42,15 +42,31 @@ Priority: optional
 Description: RevealLoader，使用reveal 13版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
 Name: RevealLoader
 
+Package: RevealLoader
+Version: 16.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 1900
+Depends: AppList
+Filename: ./debs/RevealLoader/revealloader_16.0_iphoneos-arm.deb
+Size: 979820
+MD5sum: f5883c66dc3b0031e50de32795bbf581
+SHA1: c0f3459957099eedecbc0e144a34ba964e00707a
+SHA256: 0b5a921cb98fb93e0b5acf644411d426b9201ca891a1f03634b11dce16c90ae2
+Section: System
+Priority: optional
+Description: RevealLoader，使用reveal 16版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
+Name: RevealLoader
+
 Package: com.alonemonkey.frogtweak
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Filename: ./debs/FrogTweak/com.alonemonkey.frogtweak_1.0_iphoneos-arm.deb
-Size: 24450
-MD5sum: 85810e55f0dc036f27f4f1cb388e0b14
-SHA1: 1b13a8d01ead60414fdf810fcdaacad55c6f0ae2
-SHA256: e3e925c8472650fcd82792f3d42b31bcac252cc03ae8ee2bfb8e694ac0738ec1
+Size: 24442
+MD5sum: a481409fd21c870111ec7cf908f6966c
+SHA1: 7f18fdffc84ed00dfef8a79aaef54505b4685bf4
+SHA256: e4ead98df727a3e56c6bfcf6f739809258932bee0654f829547d8110341c71e1
 Section: Tweaks
 Priority: optional
 Description: 旅行青蛙，无限三叶草、无限券、抽奖必中、必出四叶草
@@ -62,10 +78,10 @@ Architecture: iphoneos-arm
 Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Installed-Size: 24
 Filename: ./debs/StoneTweak/com.alonemonkey.stonetweak_1.0_iphoneos-arm.deb
-Size: 23598
-MD5sum: bf5eecd290f16c00be7a35b13b5796b3
-SHA1: bbdc4c9ac2e4d18b1f56e6dd9f02d2199b01fad8
-SHA256: b93d251d07fd3c4748b0dfc49f9b3199643d8f9228112045fa7a2f0e398b7d6f
+Size: 23592
+MD5sum: edd5b01144bbe8bb42c69fa463303535
+SHA1: 60649c1447bc9f59a8f40730580e8d30eab5408a
+SHA256: e3b4a06ffac09049b024db8253eee903db7a450da7ad3f182fd4349c6d0a995d
 Section: Tweaks
 Priority: optional
 Description: 去掉Stone越狱检测
@@ -77,10 +93,10 @@ Architecture: iphoneos-arm
 Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Installed-Size: 270
 Filename: ./debs/WechatPod/com.alonemonkey.wechatpod_2.0_iphoneos-arm.deb
-Size: 269708
-MD5sum: 71eb3ce897f8fafba49dbe6e71bfc4cf
-SHA1: aa28558689672e473b8110191b01856f9fbdbecc
-SHA256: 1cb984acb6423becd6f6a8e789b9b79aceb7cc40080e4169869edfe77742f92f
+Size: 269704
+MD5sum: 33b8b34a2ce7dcb5b68ee25300b1df48
+SHA1: af47efce42b60b78adcbc9c81eb3eb572a0f8d6b
+SHA256: b3c76e3560c32ab707fd20a2ce391ab2f73cc3747a6a0b9bae21eeb95a411f0b
 Section: Tweaks
 Priority: optional
 Description: 防撤回、修改步数、游戏作弊、修改定位
@@ -92,10 +108,10 @@ Architecture: iphoneos-arm
 Maintainer: mx.yolande@gmail.com
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: ./debs/DingTalkFucker/io.iosleep.dingtalkfucker_1.0_iphoneos-arm.deb
-Size: 79022
-MD5sum: 0775c6619f6b90e4de59fe9a78707d3e
-SHA1: 97487755fe46017708299db119d9511281aac5e6
-SHA256: 2247419ed2a2d92a1720187822df9cbd6ffa8269cfa42fc6eada3e695b3b40ed
+Size: 79018
+MD5sum: a31369d5f925aacb6dcb556dd44cba9c
+SHA1: 1a6b09f7e41b39cf0424597e9fe0f702f79fda87
+SHA256: c6da6389b7a57dd6708bf0641209a5da6bbc148a2ef3f2d35efd1dd3526c45d8
 Section: System
 Priority: optional
 Homepage: https://github.com/iOSleep/DingTalkFucker
@@ -112,9 +128,9 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Provides: scp
 Filename: ./debs/scp/scp_1.0_iphoneos-arm.deb
 Size: 38708
-MD5sum: 3a5cafe9d8f26a4a2466e331e71312df
-SHA1: 0f3210c5583b7771de806df242d5c4342ca754e1
-SHA256: cfb4bedf28967594a77978a310c12ea8dcca2427ae48b60705b27d38f1638cda
+MD5sum: f5fa2b9dc270f4b6753837e22ad7b1a3
+SHA1: 650251e4954430991e1d442dd37325afad713697
+SHA256: 638dceddd6598eb519976cf0dd812d3e77d8015330147d60ec26ab80d76dfd2f
 Section: Administration
 Priority: Standard
 Description: scp

@@ -9,7 +9,7 @@
 		<key>icon</key>
 		<string>RevealLoaderIcon.png</string>
 		<key>label</key>
-		<string>RevealLoader</string>
+		<string>TinRevealLoader</string>
 	</dict>
 	<key>items</key>
 	<array>
@@ -72,6 +72,6 @@
 		</dict>
 	</array>
 	<key>title</key>
-	<string>RevealLoader</string>
+	<string>TinRevealLoader</string>
 </dict>
 </plist>

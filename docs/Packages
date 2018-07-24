@@ -18,10 +18,10 @@ Architecture: iphoneos-arm
 Maintainer: anonymous
 Installed-Size: 441
 Filename: ./debs/Dropbear/dropbear_3.0_iphoneos-arm.deb
-Size: 441140
-MD5sum: f0682a8cc2efe4aa2ce5dd950bc2c8a3
-SHA1: bd67a55f215c80bdf9d87b09cca1b2891f9481c0
-SHA256: 0ecd3c37894e9c7be50eea035e2cf5b0b8cd0561c03e4b59f705972adbd08e8c
+Size: 441144
+MD5sum: 6ca7f6a51e0ccb469c3481342d55391a
+SHA1: 3486563967c08302b537e3e428cb9ceaff3db467
+SHA256: cd47f9bb58247642ce02c0a2e357d5199a02e3dd1350c49db357a06743090028
 Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB(Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
@@ -58,15 +58,47 @@ Priority: optional
 Description: RevealLoader，使用reveal 16版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
 Name: RevealLoader
 
+Package: TinRevealLoader
+Version: 14.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 1900
+Depends: AppList
+Filename: ./debs/RevealLoader/tinrevealloader_14.0_iphoneos-arm.deb
+Size: 34036
+MD5sum: c83b547de55175373b1b71d9cfe0f49f
+SHA1: cfa7e23f71241a4a448f0ed060442b183afba335
+SHA256: 3cc2e2ed7d6c4317fb5b54decf7d83837df8d95a698220e7d391ac34643ebae1
+Section: System
+Priority: optional
+Description: RevealLoader，使用reveal 14版本的动态库，自己替换/Library/RHRevealLoader/RevealServer
+Name: TinRevealLoader
+
+Package: TinRevealLoader
+Version: 14.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 1900
+Depends: AppList
+Filename: ./debs/TinRevealLoader/tinrevealloader_14.0_iphoneos-arm.deb
+Size: 34072
+MD5sum: 2ccd36ce12875854e8cb3cf143e4732c
+SHA1: 7d273988294a896c7ddc980a495b23c1fd329193
+SHA256: 259c4c9efe7b736cacc2b9983c552947129c6594089887371ab36e33f39d2381
+Section: System
+Priority: optional
+Description: RevealLoader，使用reveal 14版本的动态库，自己替换/Library/RHRevealLoader/RevealServer
+Name: TinRevealLoader
+
 Package: com.alonemonkey.frogtweak
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Filename: ./debs/FrogTweak/com.alonemonkey.frogtweak_1.0_iphoneos-arm.deb
-Size: 24442
-MD5sum: a481409fd21c870111ec7cf908f6966c
-SHA1: 7f18fdffc84ed00dfef8a79aaef54505b4685bf4
-SHA256: e4ead98df727a3e56c6bfcf6f739809258932bee0654f829547d8110341c71e1
+Size: 24436
+MD5sum: 98e3731613bf4b1afcb60eda2cc0faa9
+SHA1: fe29f903efd78914ed01faf407183367137262e6
+SHA256: 70caf9e6320549f27217d7624f152125835006a521acf9ada68fed9b285e0f34
 Section: Tweaks
 Priority: optional
 Description: 旅行青蛙，无限三叶草、无限券、抽奖必中、必出四叶草
@@ -78,10 +110,10 @@ Architecture: iphoneos-arm
 Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Installed-Size: 24
 Filename: ./debs/StoneTweak/com.alonemonkey.stonetweak_1.0_iphoneos-arm.deb
-Size: 23592
-MD5sum: edd5b01144bbe8bb42c69fa463303535
-SHA1: 60649c1447bc9f59a8f40730580e8d30eab5408a
-SHA256: e3b4a06ffac09049b024db8253eee903db7a450da7ad3f182fd4349c6d0a995d
+Size: 23588
+MD5sum: 52ac8197418458fee91709285b5bfb08
+SHA1: a2ada36a62195fcd13ef68cf846970dff4c47df5
+SHA256: 68b3f29b66fad44f2543018e6593154b339996af7553771b5a0d8c1d54d64103
 Section: Tweaks
 Priority: optional
 Description: 去掉Stone越狱检测
@@ -93,10 +125,10 @@ Architecture: iphoneos-arm
 Maintainer: AloneMonkey <liupeiqing1993@163.com>
 Installed-Size: 270
 Filename: ./debs/WechatPod/com.alonemonkey.wechatpod_2.0_iphoneos-arm.deb
-Size: 269704
-MD5sum: 33b8b34a2ce7dcb5b68ee25300b1df48
-SHA1: af47efce42b60b78adcbc9c81eb3eb572a0f8d6b
-SHA256: b3c76e3560c32ab707fd20a2ce391ab2f73cc3747a6a0b9bae21eeb95a411f0b
+Size: 269682
+MD5sum: f2a838ccbfe83598d93983c75d492725
+SHA1: 3ebec01d2cb3c86a9e19fad941b79902c9d7e785
+SHA256: 915547c7f665c3614b0b2a19f29eae435c0ecc2aebf781098f8349251854fe86
 Section: Tweaks
 Priority: optional
 Description: 防撤回、修改步数、游戏作弊、修改定位
@@ -108,10 +140,10 @@ Architecture: iphoneos-arm
 Maintainer: mx.yolande@gmail.com
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: ./debs/DingTalkFucker/io.iosleep.dingtalkfucker_1.0_iphoneos-arm.deb
-Size: 79018
-MD5sum: a31369d5f925aacb6dcb556dd44cba9c
-SHA1: 1a6b09f7e41b39cf0424597e9fe0f702f79fda87
-SHA256: c6da6389b7a57dd6708bf0641209a5da6bbc148a2ef3f2d35efd1dd3526c45d8
+Size: 79008
+MD5sum: 6b1db902e14deeeaacf1fe4ffe417b31
+SHA1: f63385c224a97cb59aa5573523826fb0b7158542
+SHA256: 86fe78e51271b5286fa531ab84ee06ed6e6e094eafb53877203435ed28b88e53
 Section: System
 Priority: optional
 Homepage: https://github.com/iOSleep/DingTalkFucker
@@ -127,10 +159,10 @@ Installed-Size: 131
 Pre-Depends: dpkg (>= 1.14.25-8)
 Provides: scp
 Filename: ./debs/scp/scp_1.0_iphoneos-arm.deb
-Size: 38708
-MD5sum: f5fa2b9dc270f4b6753837e22ad7b1a3
-SHA1: 650251e4954430991e1d442dd37325afad713697
-SHA256: 638dceddd6598eb519976cf0dd812d3e77d8015330147d60ec26ab80d76dfd2f
+Size: 38700
+MD5sum: 41a97904e5234852b456f21b07744e8d
+SHA1: 16b44097b87f11eadc0015ce717d9affa601f35a
+SHA256: 4b208414ca94db5d531acfb250fb398b434481dad1a247fed0d3cda8c311a6f7
 Section: Administration
 Priority: Standard
 Description: scp

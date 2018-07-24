@@ -14,7 +14,7 @@
 #import "CaptainHook/CaptainHook.h"
 
 #define SETTING_FILE_PARH       @"/var/mobile/Library/Preferences/com.alonemonkey.RevealLoader.plist"
-#define REVEAL_LIBRARY_PATH     @"/Library/RevealLoader/libReveal.dylib"
+#define REVEAL_LIBRARY_PATH     @"/Library/RHRevealLoader/RevealServer"
 
 CHConstructor
 {
@@ -22,7 +22,7 @@ CHConstructor
 	{
         NSDictionary *prefs = [NSDictionary dictionaryWithContentsOfFile:SETTING_FILE_PARH];
         NSString *libraryPath = REVEAL_LIBRARY_PATH;
-        
+        NSLog(@"RevealLoader run OK");
         if([[prefs objectForKey:[NSString stringWithFormat:@"RevealEnabled-%@", [[NSBundle mainBundle] bundleIdentifier]]] boolValue]) {
             if ([[NSFileManager defaultManager] fileExistsAtPath:libraryPath]){
                 dlopen([libraryPath UTF8String], RTLD_NOW);
@@ -32,3 +32,4 @@ CHConstructor
         }
 	}
 }
+

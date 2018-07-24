@@ -1,8 +1,8 @@
-Package: RevealLoader
-Name: RevealLoader
-Version: 16.0
+Package: TinRevealLoader
+Name: TinRevealLoader
+Version: 14.0
 Installed-Size: 1900
-Description: RevealLoader，使用reveal 16版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
+Description: RevealLoader，使用reveal 14版本的动态库，自己替换/Library/RHRevealLoader/RevealServer
 Section: System
 Depends: AppList
 Priority: optional

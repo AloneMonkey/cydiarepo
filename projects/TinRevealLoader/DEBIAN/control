@@ -1,0 +1,10 @@
+Package: TinRevealLoader
+Name: TinRevealLoader
+Version: 14.0
+Installed-Size: 1900
+Description: TinRevealLoader，使用reveal 14版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
+Section: System
+Depends: AppList
+Priority: optional
+Architecture: iphoneos-arm
+Maintainer: anonymous

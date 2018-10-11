@@ -1,0 +1,10 @@
+Package: RevealLoaderFor11
+Name: RevealLoaderFor11
+Version: 17.0
+Installed-Size: 1900
+Description: RevealLoader，使用reveal 17版本的動態庫，自己替换/Library/RevealLoader/libReveal.dylib, 僅支持iOS11
+Section: System
+Depends: AppList
+Priority: optional
+Architecture: iphoneos-arm
+Maintainer: anonymous

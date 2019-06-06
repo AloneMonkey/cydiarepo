@@ -1,0 +1,17 @@
+Package: tw.com.TinXie.WoodPeckeriOS
+Name: WoodPeckeriOS
+Version: 1.2.2
+Description: 使用WoodPeckeriOS 1.2.2動態庫，調適三方app。
+Depiction: WoodPeckeriOS，使用WoodPeckeriOS 1.2.2版本的動態庫，動態庫若更新請自己替换"/Library/WoodPeckeriOS/WoodPeckeriOS.framework"。
+Section: Tweaks
+Depends: firmware (>= 12.0), mobilesubstrate, AppList
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: TinXie
+dev: 
+Homepage:
+Maintainer: TinXie <s2339956@gmail.com>
+Icon: file:///Library/WoodPeckeriOS/WoodPeckeriOSIcon@2x.png
+

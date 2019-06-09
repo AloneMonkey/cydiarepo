@@ -1,0 +1,172 @@
+Package: Dropbear
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 441
+Filename: ./debs/Dropbear/dropbear_2.0_iphoneos-arm.deb
+Size: 441210
+MD5sum: 3e7150e68c24104298d46c6654cdea99
+SHA1: 8bb3307b489f13aeac2482824c53749dd38915af
+SHA256: 31bd30350b0434831c89898f458a4b23dc2fd45ac16e29b3b86297f5e2a35950
+Section: System
+Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB(Wi-Fi SSH is not enabled by default.)
+Name: Dropbear
+
+Package: Dropbear
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 441
+Filename: ./debs/Dropbear/dropbear_3.0_iphoneos-arm.deb
+Size: 441144
+MD5sum: c8c02873592d0b0bf11feafe3e26dd75
+SHA1: 41a9aaff663f290f9bde9fb41a2409d87aa1daf5
+SHA256: 93d6ce911af580e11076d5ece0866b18d2449a052f6e40e03790629dea255667
+Section: System
+Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB(Wi-Fi SSH is not enabled by default.)
+Name: Dropbear
+
+Package: RevealLoader
+Version: 13.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 1900
+Depends: AppList
+Filename: ./debs/RevealLoader/revealloader_13.0_iphoneos-arm.deb
+Size: 1906188
+MD5sum: 0d0cf41b57f14a2e1dfa899529efdd59
+SHA1: baebe83909980d45606dd5dc58cebd4bfd6aa435
+SHA256: 4f278eea93071f3228d3f6662cdbeaf05817f77eac88fd1f020fde14133d6f2e
+Section: System
+Priority: optional
+Description: RevealLoader，使用reveal 13版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
+Name: RevealLoader
+
+Package: RevealLoader
+Version: 16.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 1900
+Depends: AppList
+Filename: ./debs/RevealLoader/revealloader_16.0_iphoneos-arm.deb
+Size: 979804
+MD5sum: 10deac9efbdd533632d8bc37c41a8204
+SHA1: df7a0b8f28989fe9ba11ad85dbe9cb9c78c932f1
+SHA256: 032c0b8454fb083253307e41d50f97fac5eb4b10ee70b1853b214fa0a8f1c4ab
+Section: System
+Priority: optional
+Description: RevealLoader，使用reveal 16版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
+Name: RevealLoader
+
+Package: RevealLoaderFor11
+Version: 17.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 1900
+Depends: AppList
+Filename: ./debs/RevealLoaderFor11/revealloaderfor11_17.0_iphoneos-arm.deb
+Size: 3865090
+MD5sum: f4be0f5760311e489f9fc6dee6c58ae4
+SHA1: 39676488cfcc12e8ce8b09b8aa764dda6865c1ba
+SHA256: 3d4783db1d156b40a209ccd99b708bea4439fd318948b533cb285c327757e443
+Section: System
+Priority: optional
+Description: RevealLoader，使用reveal 17版本的動態庫，自己替换/Library/RevealLoader/libReveal.dylib, 僅支持iOS11
+Name: RevealLoaderFor11
+
+Package: com.alonemonkey.frogtweak
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AloneMonkey <liupeiqing1993@163.com>
+Filename: ./debs/FrogTweak/com.alonemonkey.frogtweak_1.0_iphoneos-arm.deb
+Size: 24442
+MD5sum: d44f6d392911392ace948d3bbd80a51d
+SHA1: 1d761b5fd149ba56e7aa11df91189671fc5d5e45
+SHA256: 9e5c6f6bc632a7f0ea9092af239bf7491fcb51f50b470b060698118e03a68609
+Section: Tweaks
+Priority: optional
+Description: 旅行青蛙，无限三叶草、无限券、抽奖必中、必出四叶草
+Name: FrogTweak
+
+Package: com.alonemonkey.stonetweak
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AloneMonkey <liupeiqing1993@163.com>
+Installed-Size: 24
+Filename: ./debs/StoneTweak/com.alonemonkey.stonetweak_1.0_iphoneos-arm.deb
+Size: 23590
+MD5sum: 7c15c9e11023ff9d2092fd364d60a062
+SHA1: aac06f133fd80c018969061acbc5abd0ffcd99f6
+SHA256: b0ca83ee03221d9128794d9ea18924ccc567f2feb008fc40ab3fa3fbc431a67b
+Section: Tweaks
+Priority: optional
+Description: 去掉Stone越狱检测
+Name: StoneTweak
+
+Package: com.alonemonkey.wechatpod
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: AloneMonkey <liupeiqing1993@163.com>
+Installed-Size: 270
+Filename: ./debs/WechatPod/com.alonemonkey.wechatpod_2.0_iphoneos-arm.deb
+Size: 269696
+MD5sum: 477582cad1405e6756098bba381c00bd
+SHA1: 6d01239167287075f52e824dc8ae94f0dbad5937
+SHA256: 529bb6b549e66f4746d629cc218cae7872cdb10afbeab8d214aeb00df3c2aacb
+Section: Tweaks
+Priority: optional
+Description: 防撤回、修改步数、游戏作弊、修改定位
+Name: WechatPod
+
+Package: io.iosleep.DingTalkFucker
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: mx.yolande@gmail.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/DingTalkFucker/io.iosleep.dingtalkfucker_1.0_iphoneos-arm.deb
+Size: 79014
+MD5sum: 13e07ca59e50b8125b1668ef439753fe
+SHA1: fedd53efdaed58116d452a2df962d267d1b66dca
+SHA256: de9bf044bae0c5c0004fae86751788efbc3d97c6467074264e4ad1110a6c4ee9
+Section: System
+Priority: optional
+Homepage: https://github.com/iOSleep/DingTalkFucker
+Description: 签到打卡（wifi，gps），抢红包（延迟，正则匹配）
+Author: iOSleep
+Name: DingTalkFucker
+
+Package: scp
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: anonymous
+Installed-Size: 131
+Pre-Depends: dpkg (>= 1.14.25-8)
+Provides: scp
+Filename: ./debs/scp/scp_1.0_iphoneos-arm.deb
+Size: 38704
+MD5sum: c18d207defe98cf3d534d475e9136e8b
+SHA1: e3f75da080f994dfec03c9a06f38981dd2a5449b
+SHA256: 75863c6b984591032cfa1eab57bce13525ba899fcf490241e1e55b7bfa09b64a
+Section: Administration
+Priority: Standard
+Description: scp
+Tag: purpose::console, role::developer
+
+Package: tw.com.TinXie.WoodPeckeriOS
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: TinXie <s2339956@gmail.com>
+Depends: firmware (>= 12.0), mobilesubstrate, AppList
+Filename: ./debs/WoodPeckeriOS/tw.com.tinxie.woodpeckerios_1.2.2_iphoneos-arm.deb
+Size: 5693432
+MD5sum: 3f51e337e2c56ff8d6320e569e0e2f1f
+SHA1: 233cc3f8712220ab5727b5a5769948f864b3b317
+SHA256: 97c0a55c953fee7891cac6271364ebe0112a47fa748aaa32f6bcf4aecf6744bf
+Section: Tweaks
+Priority: optional
+Description: 使用WoodPeckeriOS 1.2.2動態庫，調適三方app。
+Author: TinXie
+Depiction: WoodPeckeriOS，使用WoodPeckeriOS 1.2.2版本的動態庫，動態庫若更新請自己替换"/Library/WoodPeckeriOS/WoodPeckeriOS.framework"。
+Icon: file:///Library/WoodPeckeriOS/WoodPeckeriOSIcon@2x.png
+Name: WoodPeckeriOS
+
